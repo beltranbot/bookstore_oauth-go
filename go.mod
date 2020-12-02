@@ -1,4 +1,4 @@
-module github.com/beltranbot/bookstore_oauth-go
+module github.com/beltranbot/bookstore_oauth-go/oauth
 
 go 1.15
 
