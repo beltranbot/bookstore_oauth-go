@@ -22,7 +22,7 @@ const (
 
 var (
 	oauthRestClient = rest.RequestBuilder{
-		BaseURL: "http://localhost:8080",
+		BaseURL: "http://localhost:8081",
 		Timeout: 200 * time.Millisecond,
 	}
 )
@@ -124,4 +124,9 @@ func getAccessToken(accessTokenID string) (*accessToken, *errors.RestErr) {
 		return nil, errors.NewInternalServerError("error when trying to unmarshal access token response")
 	}
 	return &at, nil
+}
+
+// ReturnTrue func
+func ReturnTrue() bool {
+	return true
 }
