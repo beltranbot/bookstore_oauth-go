@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beltranbot/bookstore_oauth-go/errors"
+	"github.com/beltranbot/bookstore_oauth-go/oauth/errors"
 	"github.com/federicoleon/golang-restclient/rest"
 )
 
